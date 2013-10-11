@@ -34,5 +34,8 @@ var app = {
     onDeviceReady: function() {
         document.getElementById("location").addEventListener("blur", app.changeLocation);
         document.getElementById("location").addEventListener("submit", app.changeLocation);
+
+        console.log("device", device);
     }
 };
+
